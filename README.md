@@ -2,7 +2,7 @@
 
 **Weather Forecast** - weather forecast project that allows you to see today’s weather in the required city and add it to favorites. 
 
-Implementen tabs:
+Implemented tabs:
 - main tab with current weatherя;
 - detailed weather forecast in the selected city that includes temperature, feels like, time of sunrise and sunset;
 - three sections with aforecast for the next 6 hours with a periodicity of 3 hours;
