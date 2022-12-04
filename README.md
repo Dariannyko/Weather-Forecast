@@ -10,14 +10,15 @@ Implemented tabs:
 <br/>
 
 ### Project link
-🌱 [Weather-Forecast](https://cosmic-banoffee-e8d8c3.netlify.app/#tab-03) 
+🌱 [Weather-Forecast](https://cosmic-banoffee-e8d8c3.netlify.app/#tab-03)  
 
-<img align='left' alt='Tab1' width='300px' src='https://user-images.githubusercontent.com/109591423/205496036-d9c17e05-45e9-4dcf-bb49-78c2e2cdbc52.png'/>
-<img align='left' alt='Tab2' width='300px' src='https://user-images.githubusercontent.com/109591423/205496059-8d48c1a9-dc3f-4d49-a397-45652d2f0982.png'/> 
-<img align='left' alt='Tab3' width='300px' src='https://user-images.githubusercontent.com/109591423/205496077-94c5c047-8f9e-44e5-92c1-b27a34d21def.png'/>  
- 
+![image](https://user-images.githubusercontent.com/109591423/205498618-18ebebe4-fcfa-4668-9f22-10a410971c14.png)
+<br/>
 
+### Technologies
 
-
-
-
+<img align='left' alt='HTML' width='28px' src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png' />
+<img align='left' alt='CSS' width='28px' src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png' />
+<img align='left' alt='JavaScript' width='26px' src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png' />
+<img align='left' alt='Sass' width='26px' src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png' />
+<img align='left' alt='Flexbox' width='50px' src='https://cdn-images-1.medium.com/max/960/1*f9KCmJjpPH1wg6o6UgEPxA.jpeg' />
