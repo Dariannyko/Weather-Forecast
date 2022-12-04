@@ -763,7 +763,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "loadWeather", ()=>loadWeather);
 parcelHelpers.export(exports, "loadForecast", ()=>loadForecast);
-var _setTimeJs = require("./setTime.js");
+var _setTimeJs = require("./set-time.js");
 var _vueJs = require("./vue.js");
 var _elementsJs = require("./elements.js");
 var _dateFns = require("date-fns");
@@ -829,18 +829,7 @@ async function loadForecast(forecastUrl) {
     }
 }
 
-},{"./setTime.js":"L2ZK4","./vue.js":"c8BdP","./elements.js":"auzFE","date-fns":"9yHCA","@parcel/transformer-js/src/esmodule-helpers.js":"8ScLg"}],"L2ZK4":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "cityTime", ()=>cityTime);
-var _dateFns = require("date-fns");
-function cityTime(dayTime, currentTimeZone) {
-    let localDate = dayTime * 1000 + new Date(dayTime * 1000).getTimezoneOffset() * 60000 + currentTimeZone * 1000;
-    const localTime = (0, _dateFns.format)(new Date(localDate), "HH:mm");
-    return localTime;
-}
-
-},{"date-fns":"9yHCA","@parcel/transformer-js/src/esmodule-helpers.js":"8ScLg"}],"9yHCA":[function(require,module,exports) {
+},{"./vue.js":"c8BdP","./elements.js":"auzFE","date-fns":"9yHCA","@parcel/transformer-js/src/esmodule-helpers.js":"8ScLg","./set-time.js":"1PRmC"}],"9yHCA":[function(require,module,exports) {
 // This file is generated automatically by `scripts/build/indices.ts`. Please, don't change it.
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
@@ -3678,6 +3667,17 @@ var secondsInYear = secondsInDay * daysInYear;
 var secondsInMonth = secondsInYear / 12;
 var secondsInQuarter = secondsInMonth * 3;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"8ScLg"}]},["fvO8R","1Z4Rq"], "1Z4Rq", "parcelRequire94c2")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"8ScLg"}],"1PRmC":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "cityTime", ()=>cityTime);
+var _dateFns = require("date-fns");
+function cityTime(dayTime, currentTimeZone) {
+    let localDate = dayTime * 1000 + new Date(dayTime * 1000).getTimezoneOffset() * 60000 + currentTimeZone * 1000;
+    const localTime = (0, _dateFns.format)(new Date(localDate), "HH:mm");
+    return localTime;
+}
+
+},{"date-fns":"9yHCA","@parcel/transformer-js/src/esmodule-helpers.js":"8ScLg"}]},["fvO8R","1Z4Rq"], "1Z4Rq", "parcelRequire94c2")
 
 //# sourceMappingURL=index.5d9dacde.js.map

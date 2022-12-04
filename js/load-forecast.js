@@ -1,4 +1,4 @@
-import { cityTime } from "./setTime.js";
+import { cityTime } from "./set-time.js";
 import { setNowHTML, setDetailHTML } from "./vue.js";
 import { DATA } from "./elements.js";
 import { format } from "date-fns";
