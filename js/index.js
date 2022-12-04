@@ -4,8 +4,8 @@ import { render } from "./vue.js";
 import { loadWeather, loadForecast } from "./load-forecast.js";
 
 const SERVER = {
-  serverForecast: "http://api.openweathermap.org/data/2.5/forecast",
-  serverUrl: "http://api.openweathermap.org/data/2.5/weather",
+  serverForecast: "https://api.openweathermap.org/data/2.5/forecast",
+  serverUrl: "https://api.openweathermap.org/data/2.5/weather",
   apiKey: "6ca767a0f89bdb44703b66b9c5240f30",
 };
 
@@ -29,8 +29,8 @@ if (cookieCity) {
   showForecast(cityName);
 } else {
   const newList = list.values();
-      cityName = newList.next().value;
-      showForecast(cityName);
+  cityName = newList.next().value;
+  showForecast(cityName);
 }
 
 export function showForecast(city) {
