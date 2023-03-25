@@ -1,8 +1,15 @@
 # Weather Forecast
 
-**Interface** for Weather app using open-weather-api. 
+**Interface** for two-page app using open-weather-api. 
+- Page with information about app;
+- Forecast page is divided into two parts: 
+   - 3 tabs: current weather, details, 3-hour forecast;
+   - favorites: you can add or remove city from favorites, click on the city and see the forecast in it;
+- After reloading the page and closing the browser in the app keeps forecast of the last city you were looking for, as well as favorites cities.
 
-### Used technologies
+<br>
+
+## Used technologies
 - JavaScript 
 - React 
 
