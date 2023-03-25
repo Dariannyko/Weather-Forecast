@@ -24,9 +24,7 @@ const CurrentForecastTab = ({ addFavoriteCity }) => {
         <Box display="flex" alignItems="center">
           <DeviceThermostatIcon sx={{ fontSize: 44 }} />
           <Typography variant="h3" component="p" fontWeight={600}>
-            {` ${
-              typeof forecast?.degrees === "undefined" ? "--" : forecast.degrees
-            }`}
+            {` ${forecast?.degrees === "undefined" ? "--" : forecast.degrees}`}
           </Typography>
           <Typography variant="h4" component="p" marginBottom="auto">
             &#176;

@@ -34,7 +34,7 @@ const DetailsForecastTab = () => {
   }
 
   const weatherList = {
-    "Feels like": `${forecast.degrees || "--"}°`,
+    "Feels like": `${forecast?.degrees === "undefined" ? "--" : forecast.degrees}°`,
     Weather: forecast.detailsWeather || "--",
     Sunrise: forecast.sunrise || "--",
     Sunset: forecast.sunset || "--",
@@ -56,7 +56,7 @@ const DetailsForecastTab = () => {
         <Box display="flex" alignItems="center" paddingY={1}>
           <DeviceThermostatIcon fontSize="large" sx={{ color: "#fff" }} />
           <Typography variant="h4" component="p" fontWeight={600} color="#fff">
-            {forecast?.degrees || "--"}
+            {forecast?.degrees === "undefined" ? "--" : forecast.degrees}
           </Typography>
           <Typography
             variant="h6"
